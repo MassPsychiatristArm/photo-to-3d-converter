@@ -1,0 +1,10 @@
+depth:
+  backend: auto
+  target_long_side: 384
+  colorize: true
+mesh:
+  stride: 3
+  smooth_iterations: 1
+  texture_size: 1024
+device: auto
+log_level: INFO
