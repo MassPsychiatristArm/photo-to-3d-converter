@@ -1,0 +1,11 @@
+depth:
+  backend: auto
+  target_long_side: 1036
+  colorize: true
+mesh:
+  stride: 1
+  depth_edge_threshold: 0.02
+  smooth_iterations: 6
+  texture_size: 4096
+device: cuda
+log_level: DEBUG
