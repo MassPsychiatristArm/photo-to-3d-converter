@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.Python
+
+# ML artifacts — weights and caches are pulled by scripts/fetch_weights.py
+weights/*.pt
+weights/*.onnx
+weights/*.safetensors
+!weights/.gitkeep
+.cache/
+*.npy
+*.npz
+
+# Depth/point-cloud scratch output
+outputs/
+jobs/
+*.ply
+*.glb.tmp
+*.obj.tmp
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
